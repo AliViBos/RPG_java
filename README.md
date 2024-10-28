@@ -1,91 +1,96 @@
-# RPG_java
-Construção de um RPG utilizando a linguagem Java e aplicação de orientação a objeto.
+# RPG Atherak: Um RPG em Java com Orientação a Objetos
 
-# Personagens jogaveis
+## Integrantes do Projeto
 
- nome guerreiro luz = Bryen (mulher)
- nome guerreiro inteligencia/sabedoria = Hagnar (Homem)
- nome guerreiro força = Chazak (Homem)
- nome guerreiro agilidade = Zehar (Homem)
- nome guerreiro cura = Eliya (mulher)
+- Alice Vitória Boschetti
+- Felipe Cordeiro Carvalho
+- Eduardo Marques dos Santos
 
-# Personsagens narradores 
+## Descrição do Projeto
 
-o pai: Baruch
-filho do bem: líder Toviah
-filho do mal: líder Aven 
+*RPG Atherak* é um jogo de RPG desenvolvido em Java, utilizando conceitos de Orientação a Objetos. A história é centrada no reino fictício de Atherak, onde o justo rei Baruch passa o trono ao seu filho mais novo, Toviah. Isso desencadeia uma série de eventos dramáticos e conflitos entre Toviah e seu irmão mais velho, Aven, levando o reino a uma nova era de batalhas.
 
-# Sobre o pai e os filhos
+### Estrutura do Projeto
 
-Em um reino chamado Atherak, havia um poderoso rei chamado Baruch, o justo. 
-Ele possuía dois filhos: Toviah e Aven. O rei, antes de findar seus dias, 
-decidiu conceder o trono ao seu filho mais novo, Toviah, 
-pois havia nele mais sabedoria e bondade do que em seu irmão mais velho e sucessor direto do trono, Aven. 
-Isso despertou no primogênito grande fúria e desejo de vingança. 
-Desta forma, se iniciou uma grande batalha entre os irmãos pelo reino. 
+O projeto está organizado em uma estrutura de pastas que facilita a gestão do código, permitindo a criação de classes específicas para personagens, mecânicas de combate e narrativa.
 
-# Sobre a batalha de Akathon
+- *Pasta character*: Classes para os personagens, tanto jogáveis quanto inimigos.
+- *Pasta game*: Mecânicas de jogo, incluindo o sistema de combate.
+- *Pasta story*: História e narrativa do jogo.
 
-A batalha de Akathon foi tida como a mais devastadora já vista entre as forças do Toviah (Toviahnos) e do Aven (Averanos). 
-Toviah venceu a batalha de Akathon graças a 5 grandes guerreiros (Bryen, Hagnar, Chazak e Zehar) que lutaram com glória ao lado de Toviah. Aven com seu exercito de demonios, náo foi pareo para o incadencente exercito de Thoviahnos.
-A paz reinou durante muitos anos, porém, Aven não aceitou a derrota e começou a construir um exército ainda maior para um confronto decisivo. A guerra ainda persiste.
+## História
 
-Aven = Ele acredita que os povos devem ser escravizados para construir o seu império e que ele está acima de qualquer lei. Todos devem se curvar perante ele e se render aos seus mandamentos sádicos. Ele é autoritario, não possui empatia, manipulador e impulsivo.
+### Contexto
 
-Toviah = Ele acredita na igualdade, liberdade, justiça e pureza.
+No reino de *Atherak, o rei **Baruch* decide passar o trono para seu filho mais novo, *Toviah, por acreditar em sua sabedoria e bondade. Isso desperta grande ira em **Aven*, o filho mais velho, que busca vingança contra o irmão e contra o reino.
 
-estopim: nesse grupo de jovens que fazem parte da entidade boa,
+### A Batalha de Akathon
 
-depois da batalha, a mandado de Toviah, Aven foi exilado em ma'atzar (o purgatório de mil olhos), uma grande e absolutamente insalubre prisão,
-construída especialente para abriga-lo. O local é escuro, frio e cercado por muros altos e robustos, guardados por exímios soldados, dia e noite.
+Após a decisão de Baruch, uma guerra devastadora chamada *Batalha de Akathon* ocorre, onde os seguidores de Toviah (os *Toviahnos) lutam contra o exército sombrio de Aven (os **Averanos). Com a ajuda de cinco guerreiros lendários – **Bryen, **Hagnar, **Chazak, **Zehar* e *Eliya* – Toviah sai vitorioso. Após a batalha, Aven é exilado no purgatório *Ma'atzar*.
 
-O ar é gélido e cortante, com uma sensação de frio penetrante que faz os ossos tremerem.
-Fumaça ou névoa se formam ao respirar, criando um ambiente ainda mais sinistro.
+### A Traição de Avush
 
- luz é quase inexistente, com sombras longas e profundas dominando o espaço.
-Pequenos pontos de luz, como chamas dos olhos brilhantes dos soldados de Toviah que refletem a escuridão.
+*Avush*, um general do exército de Toviah encarregado de vigiar Aven, é corrompido pelo desejo de poder e liberta Aven em troca de promessas de glória. Aven começa a formar um novo exército demoníaco para retomar o reino, e os cinco guerreiros são novamente convocados para detê-lo.
 
-# o traidor
+### O Confronto Final
 
-Avush - o traidor
+No confronto final, Toviah e seus guerreiros enfrentam Aven e seu exército. *Avush* revela sua traição, mas é derrotado pelos guerreiros. Aven também é finalmente subjugado, restaurando a paz em Atherak.
 
-Um dos centenas de guerreiros do exercito de Toviah que foram designados a vigiar Aven em ma'atzar. 
-Avush era o general de todos do pelotão designado a esta missão. Com um forte desejo de ambição, sentiu-se mediocre,
- pois não queria apenas observar um detento, mas sim, liderar soldados em batalhas e demonstrar sua magnitude. 
- 
- Avush foi honrado como melhor general da batalha de Akathon. 
+### Final Alternativo
 
- Com um forte anseio, foi tentado por Aven, que utilizou de seus desejos para manipula-lo. Aven, 
- ofertou a Avush que, caso o soltasse, ele seria o general do seu exercito. 
- Trazendo assim uma nova grande guerra, onde desta vez, ele herdaria grandes riquezas e seria mais uma vez aclamado pelos seus feitos.
+Em uma versão alternativa, Aven tem um momento de redenção e aceita o exílio permanente.
 
- avush solta aven -> aven consegue um local para ir conjurando membros malignos para seu exercito ->
- alguns membros malignos começam a sabotar as vilas do reino e perturbar a paz -> os 5 guerreiros começam a matar os monstros e receber revelações de futuros conflitos, mas acreditavam que aven estava preso ainda -> 
- avush depois de ter matado os soldados e soltado aven foi para o reino dar a noticia da "fuga" de aven -> o rei Toviah manda os 5 guerreiros irem juntamente com avush atras de Aven. 
+## Estrutura do Código
 
- Continuação e Desfecho da História
-Após a traição de Avush, Aven começa a reunir seus aliados malignos e a fortalecer seu exército, composto por criaturas sombrias e guerreiros sedentos por destruição. As vilas de Atherak sofrem ataques contínuos, e a paz é abalada pela incerteza e pelo medo.
+### Classes Principais
 
-O Chamado dos Cinco Guerreiros
-Quando a notícia da "fuga" de Aven chega ao reino, Toviah convoca os cinco guerreiros que lutaram ao seu lado na Batalha de Akathon: Bryen, Hagnar, Chazak, Zehar e Eliya. Com Avush ao lado deles (ainda escondendo sua traição), os guerreiros partem em uma perigosa jornada para localizar e deter Aven. Cada um dos cinco guerreiros passa a ter presságios e visões sobre um conflito final iminente, porém nenhum deles percebe que Avush esconde um grande segredo.
+1. *Character.java*: Classe abstrata que representa um personagem genérico, com atributos como name, health e attackPower.
+2. *Bryen.java, Hagnar.java, etc.*: Classes específicas para cada guerreiro, que herdam de Character e implementam habilidades únicas.
+3. *Demon.java*: Representa os inimigos demoníacos, com habilidades próprias.
+4. *Battle.java*: Classe para gerenciar o sistema de batalha, alternando ataques entre o jogador e o inimigo.
+5. *Story.java*: Introduz a história, com eventos e diálogos que ocorrem ao longo do jogo.
 
-A Jornada e os Conflitos Internos
-Ao longo do caminho, os guerreiros enfrentam criaturas enviadas por Aven, enfrentam suas próprias dúvidas e medos, e testemunham a devastação causada pelo exército maligno. Bryen, com sua luz, inspira esperança; Hagnar, com sua sabedoria, guia o grupo estrategicamente; Chazak, com sua força, defende os mais vulneráveis; Zehar, com sua agilidade, executa ataques precisos; e Eliya, com seu poder de cura, mantém o grupo em pé. Contudo, o comportamento estranho de Avush começa a levantar suspeitas, especialmente para Bryen, que o observa de perto.
+### Exemplo de Código
 
-O Confronto Final: Ma’atzar
-Ao chegar a Ma'atzar, Toviah e seus guerreiros encontram Aven em sua fortaleza sombria, cercado por seus generais demoníacos e soldados. Um confronto épico se inicia, com cada guerreiro enfrentando adversários de igual poder. A batalha coloca à prova não apenas suas habilidades, mas também sua unidade e propósito.
+#### Character.java
 
-No momento decisivo, Avush revela sua verdadeira lealdade e ataca os guerreiros ao lado de Aven, mas Bryen já havia preparado uma armadilha para ele. Em um confronto de alta tensão, Avush é derrotado pelos cinco guerreiros e revela, em seu último suspiro, os planos sombrios de Aven de dominar Atherak e transformar o reino em um império de escuridão.
+Define as propriedades e métodos básicos para qualquer personagem no jogo.
 
-O Desfecho: A Escolha de Aven
-Após um longo e árduo combate, Toviah e Aven finalmente se enfrentam. Toviah tenta convencer seu irmão a abandonar seu desejo de dominação e a se render, oferecendo-lhe uma última chance de redenção. Mas Aven, obcecado pelo poder, se recusa e prepara um último e desesperado ataque.
+```java
+public abstract class Character {
+    protected String name;
+    protected int health;
+    protected int attackPower;
 
-Porém, os cinco guerreiros, unidos, combinam seus poderes e conseguem subjugar Aven. Ao ser derrotado, Aven se recusa a aceitar o exílio novamente. Em vez disso, ele conjura uma explosão de energia que ameaça destruir tudo ao seu redor. Toviah, junto com os cinco guerreiros, consegue conter a explosão, sacrificando parte de seu próprio poder para salvar o reino.
+    public Character(String name, int health, int attackPower) {
+        this.name = name;
+        this.health = health;
+        this.attackPower = attackPower;
+    }
 
-Epílogo
-Com a ameaça de Aven encerrada, o reino de Atherak é restaurado à paz, e Toviah reafirma seus ideais de justiça e liberdade, prometendo governar com ainda mais sabedoria. Os cinco guerreiros se tornam lendas e, enquanto o povo de Atherak reconstrói suas vilas e celebra a paz, uma nova era de prosperidade se inicia.
+    public void showStats() {
+        System.out.println("Name: " + name);
+        System.out.println("Health: " + health);
+        System.out.println("Attack Power: " + attackPower);
+    }
 
-Final Alternativo: Em uma versão alternativa, Aven poderia ter um momento de redenção final, percebendo o erro de seu caminho. Em vez de ser destruído, ele aceita o exílio permanente, aceitando viver isolado para sempre como penitência.
+    public abstract void specialAbility();
 
-Esse enredo adiciona drama, conflito interno e uma conclusão que pode envolver escolhas críticas, se você quiser adicionar finais alternativos. Podemos agora focar no desenvolvimento do código e na criação de eventos e mecânicas que vão envolver o jogador nessa trama.
+    public void attack(Character enemy) {
+        System.out.println(name + " attacks " + enemy.getName());
+        enemy.takeDamage(attackPower);
+    }
 
+    public void takeDamage(int damage) {
+        health -= damage;
+        System.out.println(name + " takes " + damage + " damage, remaining health: " + health);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+}
